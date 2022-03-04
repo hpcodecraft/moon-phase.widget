@@ -15,7 +15,7 @@ export const refreshFrequency = 60 * 1000;
 
 const textColor = "white";
 const glowColor = "hotpink";
-const glowStrength = 2.5;
+const glowStrength = 0.75;
 
 const glowStyle = () => {
   let css = "";
@@ -33,7 +33,7 @@ export const className = `
   @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
 
   left: 26px;
-  top: 90px;
+  top: 110px;
 
   opacity: 0.85;
 
@@ -66,8 +66,6 @@ export const className = `
   }
 `;
 
-// render gets called after the shell command has executed. The command's output
-// is passed in as a string.
 export const render = () => {
   const phase = moon_day(new Date());
   const phaseStr = phase_text(phase);

@@ -2,7 +2,7 @@
 
 This widget is meant to be used with [Übersicht](http://tracesof.net/uebersicht/)
 
-<img width="350" alt="Moon phase widget" src="https://user-images.githubusercontent.com/1476865/106313584-bc49b500-6268-11eb-8da3-95c23833e99e.png">
+<img width="516" alt="Moon phase widget" src="https://raw.githubusercontent.com/hpcodecraft/moon-phase.widget/main/screenshot.png">
 
 A widget showing the current moon phase.
 
